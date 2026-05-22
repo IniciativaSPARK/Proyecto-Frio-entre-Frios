@@ -1,0 +1,3 @@
+repository "Cam-Jugador/Cam-Jugador@4674186452746@cloud"
+  path "/"
+    smartbranch "/main"
