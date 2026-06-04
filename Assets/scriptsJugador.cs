@@ -7,7 +7,13 @@ using System;
 public class scriptsJugador : MonoBehaviour
 {
     public float speed = 10f;
-    [SerializeField] private float vida = 10f;
+
+    [SerializeField] private float vidaMaxima;
+
+    private float vidaActual;
+
+    public AroVida barraVida;
+
     private Vector2 Movimientos;
     private Animator animator;
     public void OnMovimientos(InputAction.CallbackContext context)
@@ -16,6 +22,10 @@ public class scriptsJugador : MonoBehaviour
     }
     void Start()
     {
+        vidaActual = vidaMaxima;
+
+        barraVida.SetSliderMax(vidaMaxima);
+
         animator = GetComponent<Animator>();
     }
     void Update()
@@ -38,9 +48,13 @@ public class scriptsJugador : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        vida -= damage;
-        Debug.Log("Vida del jugador: " + vida);
-        if(vida <= 0)
+        vidaActual -= damage;
+        Debug.Log("Vida del jugador: " + vidaActual);
+
+        // Para actualizar la barra de vida
+        barraVida.SetSlider(vidaActual);
+        
+        if(vidaActual <= 0)
         {
             Debug.Log("GAME OVER");
         }
