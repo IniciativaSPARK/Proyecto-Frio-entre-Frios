@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: a8961d999c11c0e448a2d8a9a8e97499
+  productGUID: 5ab9d8dc9ed616940896f2a16afdf46d
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Cam-Jugador
+  productName: Proyecto Frio entre Frios
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -846,14 +846,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Cam-Jugador
+  metroPackageName: Proyecto Frio entre Frios
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Cam-Jugador
+  metroApplicationDescription: Proyecto Frio entre Frios
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -924,10 +924,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 7cec6a94-84e5-4aa1-87ad-198aed3f7849
+  cloudProjectId: 2cd40476-8ddf-4e72-abcb-6a7b2d65058a
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Cam-Jugador
+  projectName: Proyecto Frio entre Frios
   organizationId: pillacapuma
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
